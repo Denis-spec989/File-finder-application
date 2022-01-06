@@ -1,10 +1,12 @@
 package javafxapp;
 
 
+import java.io.InputStream;
 import javafx.application.Application;
 import javafx.collections.*;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.*;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 
@@ -17,7 +19,11 @@ public class JavaFXApp extends Application {
         Scene scene = new Scene(root);
         
       
-        stage.setTitle("Concurrency in JavaFX");
+        stage.setTitle("File finder");
+        InputStream iconStream =
+        getClass().getResourceAsStream("/folder/someImage.png");
+        Image image = new Image(iconStream);
+        stage.getIcons().add(image);
         stage.setScene(scene);
         stage.show();
     }
