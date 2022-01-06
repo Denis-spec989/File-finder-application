@@ -10,21 +10,37 @@ ___
 ___
 <a id="anchor1"></a>
 ### 1.Описание приложения
-Данное приложения для добавления изображения в базу данных было написано на open-source среде разработки **Apache Netbeans IDE** с использованием **Java SE 8**. Настройка проекта будет указана в пункте [Техническое описание проекта](#anchor4)
+Данное приложения было написано на open-source среде разработки **Apache Netbeans IDE** с использованием **Java SE 8**. Настройка проекта будет указана в пункте [Техническое описание проекта](#anchor4)
 
 **Цель проекта** - программное нахождение файлов определенного формата в заданной директории
 ___
 <a id="anchor2"></a>
 ### 2.Демо проекта
 **Запускаем программу** 
+
+
 ![avat](https://raw.githubusercontent.com/Denis-spec989/File-finder-application/master/assets/scr1(rew).jpg)
+
+
 **Вводим директорию и формат файла**
+
+
 ![avat](https://raw.githubusercontent.com/Denis-spec989/File-finder-application/master/assets/scr2.jpg)
+
+
 **Нажимаем кнопку Find и ждем до появления результата**
+
+
 ![avat](https://raw.githubusercontent.com/Denis-spec989/File-finder-application/master/assets/scr3.jpg)
+
+
 Было найдено 35 файлов формата **.pdf** и прописаны полные пути к этим файлам
 **Поменяем формат файла на .jpg**
+
+
 ![avat](https://raw.githubusercontent.com/Denis-spec989/File-finder-application/master/assets/scr4.jpg)
+
+
 Было найдено 164 файла формата **.jpg** и прописаны полные пути к этим файлам
 ___
 ### 3.Используемые технологии в проекте
