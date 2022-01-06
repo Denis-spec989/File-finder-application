@@ -49,6 +49,9 @@ ___
 :heavy_check_mark: Java Stream API
 :heavy_check_mark: Java Class File
 :heavy_check_mark: Java Collections
+:heavy_check_mark: Реализация паттерна MVC
+:heavy_check_mark: Ассинхронное выполнение задачи в JavaFX
+
 ___
 <a id="anchor4"></a>
 ### 4.Техническое описание проекта
